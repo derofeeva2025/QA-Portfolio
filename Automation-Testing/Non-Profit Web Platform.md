@@ -1,4 +1,4 @@
-# 🎭 Enterprise Web E2E & Visual Regression Suite
+# Web E2E & Visual Regression Suite
 
 > **Playwright + TypeScript** automation suite for a **large-scale enterprise web platform** (client under NDA). Combines **visual regression testing** and **functional UI testing**.
 
