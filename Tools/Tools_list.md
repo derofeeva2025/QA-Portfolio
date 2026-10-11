@@ -33,3 +33,5 @@ As QA Team Lead and Project Manager used next tools :
 | Float | Resource management and team scheduling platform designed to plan, track, and optimize a team's time | 
 | Metric.ai | Professional Services Automation (PSA) platform for time tracking, reporting and invoices | 
 | Attask | Enterprise Project Portfolio Management (PPM) software | 
+
+Author - Daria Y. — QA, PM, AI Services - LinkedIn: [daria-y-5a319332](https://www.linkedin.com/in/daria-y-5a319332/)
