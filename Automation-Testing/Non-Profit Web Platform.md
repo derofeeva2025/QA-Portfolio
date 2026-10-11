@@ -63,3 +63,4 @@ An automation suite built with **Playwright + TypeScript** using Claude for a **
 
 <img width="233" height="248" alt="Screenshot 2026-10-11 at 7 35 14 PM" src="https://github.com/user-attachments/assets/ba0e33c6-aafb-4241-a0ef-4652a5d3ae8d" />
 
+Author - Daria Y. — QA, PM, AI Services - LinkedIn: [daria-y-5a319332](https://www.linkedin.com/in/daria-y-5a319332/)
