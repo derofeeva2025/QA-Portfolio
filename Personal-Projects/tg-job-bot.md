@@ -51,4 +51,4 @@ Built with **Claude AI** as a coding assistant — I defined the requirements, t
 6. **Send** — the message is delivered to a Telegram channel via Bot API
 
 <img width="233" height="248" alt="Screenshot 2026-10-11 at 7 46 19 PM" src="https://github.com/user-attachments/assets/fe0262e0-79e5-44fd-bfed-2b55ea916ef8" />
-
+Author - Daria Y. — QA, PM, AI Services - LinkedIn: [daria-y-5a319332](https://www.linkedin.com/in/daria-y-5a319332/)
