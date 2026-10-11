@@ -24,7 +24,7 @@ As Manual and Automation QA :
 As QA Team Lead and Project Manager used next tools :
 | Tool | Usage |
 |------|-------|
-| AI Claude / ChatGPT / DeepSeek /  |   | 
+| AI Claude / ChatGPT / DeepSeek / Gemini / Copilot | Daily AI analytic activities  | 
 | NotebookLM | AI tool for summarizing and creating presentations for the teams and clients, roadmaps | 
 | Granola / Teams | AI tools for summarizing and recording the meetings, meeting notes creation |
 | Jira Confluece | Centralize project tracking and documentation for cross-team collaboration | 
