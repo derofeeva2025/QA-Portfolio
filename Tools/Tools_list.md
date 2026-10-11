@@ -21,14 +21,15 @@ As Manual and Automation QA :
 | Omnibug / Adobe Experience / Google Tag Assitant / GA4 DebugView | Analytics testing & debugging |
 
 
-
 As QA Team Lead and Project Manager used next tools :
 | Tool | Usage |
 |------|-------|
 | AI Claude / ChatGPT / DeepSeek /  |   | 
 | NotebookLM | AI tool for summarizing and creating presentations for the teams and clients, roadmaps | 
 | Granola / Teams | AI tools for summarizing and recording the meetings, meeting notes creation |
+| Jira Confluece | Centralize project tracking and documentation for cross-team collaboration | 
 | Zoom / Slack | Communication tools |
 | Smartsheet | Work management platform that combines project management, automation, and collaboration features |
 | Float | Resource management and team scheduling platform designed to plan, track, and optimize a team's time | 
 | Metric.ai | Professional Services Automation (PSA) platform for time tracking, reporting and invoices | 
+| Attask | Enterprise Project Portfolio Management (PPM) software | 
