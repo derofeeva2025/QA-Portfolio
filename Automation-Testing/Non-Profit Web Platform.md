@@ -10,7 +10,7 @@
 
 ## 📖 Overview
 
-An automation suite built with **Playwright + TypeScript** for a **large-scale enterprise web platform** (client under NDA). The suite performs:
+An automation suite built with **Playwright + TypeScript** using Claude for a **large-scale enterprise web platform** (client under NDA). The suite performs:
 
 - 📸 **Visual regression testing** — captures screenshots from **prod** and **dev**, compares them pixel-by-pixel
 - ✅ **Functional UI testing** — validates core pages, navigation, search, carousels, and forms
@@ -52,32 +52,14 @@ An automation suite built with **Playwright + TypeScript** for a **large-scale e
 
 | Metric | Before | After |
 |--------|--------|-------|
-| ⏱️ Regression runtime | ~40 min (manual) | **~4 min (automated)** |
+| ⏱️ Regression runtime | ~1 day (manual, only coverage for main pages) | **~30 min (automated)** |
 | 🔁 Manual QA effort | 100% | **10%** |
 | 🐛 Visual bugs caught | 0 | **15+ in first month** |
-| 📸 Screenshots compared | 0 | **50+ per run** |
+| 📸 Screenshots compared | 0 | **1500+ per run** |
 
 ---
 
 ## 📂 Project Structure
-enterprise-web-e2e-suite/
-├── 📁 screenshots/ # Captured screenshots (prod vs dev)
-├── 📁 reports/ # Test execution reports
-├── 📁 scripts/ # Test scripts
-│ ├── visual.spec.ts # Visual regression tests
-│ ├── navigation.spec.ts # Menu & navigation tests
-│ ├── search.spec.ts # Search tests
-│ ├── carousel.spec.ts # Carousel tests
-│ └── forms.spec.ts # Form tests
-├── ⚙️ package.json
-├── 📄 README.md
-└── 🚫 .gitignore
 
-📸 How Visual Regression Works
-Capture — screenshots taken from prod and dev environments
+<img width="233" height="248" alt="Screenshot 2026-10-11 at 7 35 14 PM" src="https://github.com/user-attachments/assets/ba0e33c6-aafb-4241-a0ef-4652a5d3ae8d" />
 
-Compare — Playwright compares images pixel-by-pixel
-
-Report — differences highlighted in HTML report
-
-Review — QA reviews changes and approves/rejects
