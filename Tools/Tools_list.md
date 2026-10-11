@@ -5,6 +5,7 @@ This folder showcases the tools and utilities I regularly use during QA activiti
 
 ### 🧩 Tools Used
 
+As Manual and Automation QA : 
 | Tool | Usage |
 |------|-------|
 | Jira | Defect tracking, bug lifecycle management and collaboration |
@@ -19,3 +20,15 @@ This folder showcases the tools and utilities I regularly use during QA activiti
 | Google Lighthouse / WAVE / VoiceOver / SiteImprove | Accessibility testing tools |
 | Omnibug / Adobe Experience / Google Tag Assitant / GA4 DebugView | Analytics testing & debugging |
 
+
+
+As QA Team Lead and Project Manager used next tools :
+| Tool | Usage |
+|------|-------|
+| AI Claude / ChatGPT / DeepSeek /  |   | 
+| NotebookLM | AI tool for summarizing and creating presentations for the teams and clients, roadmaps | 
+| Granola / Teams | AI tools for summarizing and recording the meetings, meeting notes creation |
+| Zoom / Slack | Communication tools |
+| Smartsheet | Work management platform that combines project management, automation, and collaboration features |
+| Float | Resource management and team scheduling platform designed to plan, track, and optimize a team's time | 
+| Metric.ai | Professional Services Automation (PSA) platform for time tracking, reporting and invoices | 
