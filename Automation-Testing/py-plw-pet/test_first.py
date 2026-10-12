@@ -6,6 +6,6 @@ def test_login_field_exists(page):
     login.open()
 
     assert login.username.count() > 0
-    print("✅ Поле логина найдено")
+    print("✅Login field exists")
 
 
