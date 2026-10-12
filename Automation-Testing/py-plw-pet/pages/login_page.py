@@ -1,4 +1,6 @@
+import allure
 from playwright.sync_api import Page, expect
+
 # pages/login_page.py
 class LoginPage:
     def __init__(self, page):
@@ -7,8 +9,10 @@ class LoginPage:
         self.password = page.locator("#password")
         self.login_btn = page.locator("#login-button")
 
+    @allure.step("Open login page")
     def open(self):
         self.page.goto("https://www.saucedemo.com")
 
+    @allure.step("Login button is green check")
     def login_button_color(self):
         expect(self.login_btn).to_have_css("background-color", "rgb(61, 220, 145)")
