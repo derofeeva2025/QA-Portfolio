@@ -22,7 +22,7 @@ Automation status: ✅ automated, ⬜ not automated yet. Update the last column 
 
 | ID | Title | Type | Priority | Automated test |
 |---|---|---|---|---|
-| TC-LOGIN-001 | Successful login with valid credentials | Positive | High | ⬜ |
+| TC-LOGIN-001 | Successful login with valid credentials | Positive | High | ✅ `test_successful_login`|
 | TC-LOGIN-002 | Successful login by pressing Enter | Positive | Medium | ⬜ |
 | TC-LOGIN-003 | Logout returns the user to the login page | Positive | High | ⬜ |
 | TC-LOGIN-004 | Login with a wrong password | Negative | High | ⬜ |
