@@ -15,6 +15,7 @@ As Manual and Automation QA :
 | Git, GitHub | Versions control |
 | GitHub Actions | Continuous Integration and Continuous Deployment (CI/CD) platform built directly into GitHub |
 | PyCharm | IDE for Python scripts development | 
+| Pytest | Software testing framework for Python that allows to write, organize, and execute automated tests | 
 | Playwright | Automation framework for end-to-end (E2E) testing |
 | Allure Report | Test result visualization tool |
 | JMeter | Load and performance testing tool |
