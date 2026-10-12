@@ -1,3 +1,4 @@
+import allure
 import pytest
 from playwright.sync_api import sync_playwright
 
@@ -9,3 +10,17 @@ def page():
         page = browser.new_page()
         yield page
         browser.close()
+
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    outcome = yield
+    report = outcome.get_result()
+
+    if report.when == "call" and report.failed:
+        page = item.funcargs.get("page")
+        if page:
+            allure.attach(
+                page.screenshot(),
+                name="Screenshot on failure",
+                attachment_type=allure.attachment_type.PNG,
+            )

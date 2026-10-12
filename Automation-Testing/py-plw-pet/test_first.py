@@ -1,4 +1,9 @@
+import allure
 from pages.login_page import LoginPage
+
+@allure.feature("Login form")
+@allure.title("Login page has username, password and a green button")
+@allure.severity(allure.severity_level.CRITICAL)
 
 def test_login_field_exists(page):
     login = LoginPage(page)
