@@ -16,6 +16,7 @@ As Manual and Automation QA :
 | GitHub Actions | Continuous Integration and Continuous Deployment (CI/CD) platform built directly into GitHub |
 | PyCharm | IDE for Python scripts development | 
 | Playwright | Automation framework for end-to-end (E2E) testing |
+| Allure Report | Test result visualization tool |
 | JMeter | Load and performance testing tool |
 | Google Lighthouse / WAVE / VoiceOver / SiteImprove | Accessibility testing tools |
 | Omnibug / Adobe Experience / Google Tag Assitant / GA4 DebugView | Analytics testing & debugging |
