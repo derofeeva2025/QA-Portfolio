@@ -17,9 +17,11 @@ pipeline {
             }
         }
     }
-    post {
+        post {
         always {
-            archiveArtifacts artifacts: 'Automation-Testing/py-plw-pet/allure-results/**', allowEmptyArchive: true
+            allure includeProperties: false,
+                   results: [[path: 'Automation-Testing/py-plw-pet/allure-results']]
         }
+    }
     }
 }
