@@ -17,11 +17,10 @@ pipeline {
             }
         }
     }
-        post {
+    post {
         always {
             allure includeProperties: false,
                    results: [[path: 'Automation-Testing/py-plw-pet/allure-results']]
         }
-    }
     }
 }
