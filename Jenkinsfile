@@ -3,9 +3,9 @@ pipeline {
         dockerfile {
             dir 'Automation-Testing/py-plw-pet'
         }
-            triggers {
-        pollSCM('H/5 * * * *')
     }
+    triggers {
+        pollSCM('H/5 * * * *')
     }
     stages {
         stage('Test') {
