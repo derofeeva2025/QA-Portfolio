@@ -1,9 +1,16 @@
 stages:
   - test
 
-hello:
+ui-tests:
   stage: test
-  image: alpine:3.20
+  image: mcr.microsoft.com/playwright/python:v1.63.0-noble
   script:
-    - echo "Hello from GitLab CI"
-    - date
+    - cd Automation-Testing/py-plw-pet
+    - pip install -r requirements.txt
+    - pytest --alluredir=allure-results --junitxml=report.xml
+  artifacts:
+    when: always
+    paths:
+      - Automation-Testing/py-plw-pet/allure-results/
+    reports:
+      junit: Automation-Testing/py-plw-pet/report.xml
