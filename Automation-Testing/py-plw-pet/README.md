@@ -12,7 +12,7 @@ Allure reports with a screenshot attached to every failed test.
 - Playwright (Chromium)
 - Allure Report
 - Docker
-- Jenkins and GitHub Actions
+- Jenkins, GitLab CI and GitHub Actions
 
 ## Project structure
 
@@ -38,7 +38,7 @@ allure serve allure-results
 
 ## CI
 
-Tests run automatically in two CI systems from the same repository.
+Tests run automatically in three CI systems from the same repository.
 
 ### Jenkins
 
@@ -67,6 +67,21 @@ A passed test shows its steps, severity and ID:
 I ran Jenkins locally in Docker (with access to the Docker socket for the Docker agent).
 On a server the setup would be the same: Docker, a container with auto-restart, HTTPS and
 a GitHub webhook instead of polling.
+
+### GitLab CI
+
+The repository is mirrored to GitLab: [gitlab.com/darya.erofeeva/qaportfolio](https://gitlab.com/darya.erofeeva/qaportfolio).
+The pipeline is described in [`.gitlab-ci.yml`](../../.gitlab-ci.yml) and runs on every push:
+
+![Pipeline](https://gitlab.com/darya.erofeeva/qaportfolio/badges/main/pipeline.svg)
+
+- **Image.** The job runs in the official Playwright Python image, so no browsers or system
+  libraries need to be installed on the runner.
+- **Job `ui-tests`.** Installs dependencies and runs pytest, producing Allure results and a JUnit report.
+- **Artifacts.** `allure-results` is saved even when tests fail (`when: always`);
+  the JUnit report is shown in the pipeline's **Tests** tab.
+
+![GitLab pipeline](docs/ci/gitlab-pipeline.png)
 
 ### GitHub Actions
 
