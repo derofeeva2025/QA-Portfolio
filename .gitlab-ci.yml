@@ -1,0 +1,9 @@
+stages:
+  - test
+
+hello:
+  stage: test
+  image: alpine:3.20
+  script:
+    - echo "Hello from GitLab CI"
+    - date
